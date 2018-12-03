@@ -10,7 +10,7 @@ public class Rescuer {
     }
 
 void feed (Food food, Animal animal ){
-    System.out.println (name+" fed "+animal.getClass() +" "+food.getClass());
+    System.out.println (name+" fed "+animal.getName() +" "+food.getName());
 
 }
 

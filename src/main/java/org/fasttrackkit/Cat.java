@@ -17,4 +17,6 @@ public class Cat extends Animal {
     public void setBox(String box) {
         this.box = box;
     }
+
+
 }

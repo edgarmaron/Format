@@ -9,7 +9,7 @@ public class Entertainment {
 
     }
     void activity (Rescuer rescuer,Animal animal){
-        System.out.println (rescuer.name+" "+"is" +" "+name+" with "+animal.getClass());
+        System.out.println (rescuer.name+" "+"is" +" "+name+" with "+animal.getName());
     }
 
     public String getName() {
