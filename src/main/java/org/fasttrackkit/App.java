@@ -13,13 +13,18 @@ public class App
         Food Fish = new Food ("Fish");
         Fish.setPrice(15);
         
-        Dog Spike = new Dog("Spike");
+        Dog spike = new Dog("Spike");
+        spike.joy();
+
         Cat Miles = new Cat("Miles");
+        Miles.joy();
 
         Rescuer john = new Rescuer("John");
-        john.feed(Bacon,Spike);
-        goingout.activity(john,Spike);
+        john.feed(Bacon,spike);
+        goingout.activity(john,spike);
         john.setAvalibemoney(300);
+
+        john.entertain(goingout, spike);
 
 
         Rescuer Fred = new Rescuer("Fred");

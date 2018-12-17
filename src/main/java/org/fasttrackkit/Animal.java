@@ -4,15 +4,16 @@ public class Animal {
 
     private String name;
     private double age;
-    private String color;
-    private String type;
     private int health;
     private int hunger;
     private int happiness;
 
+
+    void joy (){
+       System.out.println();
+    }
     Animal (String name1){
         name=name1;
-
     }
 
     public String getName() {
@@ -29,22 +30,6 @@ public class Animal {
 
     public void setAge(double age) {
         this.age = age;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public int getHealth() {

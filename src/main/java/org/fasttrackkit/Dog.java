@@ -8,6 +8,9 @@ public class Dog extends Animal{
         super (name1);
 
     }
+    void joy (){
+        System.out.println(getName()+"wagging tail");
+    }
 
     public String getToys() {
         return toys;

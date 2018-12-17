@@ -9,7 +9,9 @@ public class Cat extends Animal {
         super(name1);
 
     }
-
+    void joy (){
+        System.out.println(getName()+"purring");
+    }
     public String getBox() {
         return box;
     }
