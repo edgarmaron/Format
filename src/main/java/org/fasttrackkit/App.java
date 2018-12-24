@@ -31,8 +31,6 @@ public class App
         Fred.feed(Fish,Miles);
         cleaning.activity(Fred,Miles);
 
-
-
     }
 
 
